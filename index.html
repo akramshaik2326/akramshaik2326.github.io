@@ -3,63 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akram Shaik - Portfolio</title>
+    <title>Akram Shaik - Data Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="container">
-            <div class="profile">
-                <img src="https://github.com/akramshaik2326.png" alt="Akram Shaik" class="profile-photo">
-            </div>
-            <div class="details">
-                <h1>Akram Shaik</h1>
-                <p>Data Engineer | Software Engineer | Data Analyst| Python, SQL, PySpark, Azure, Databricks</p>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="resume.pdf" download class="btn">Download Resume</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <h1>Akram Shaik</h1>
+            <p>Data Engineer | Python, PySpark, Azure, Databricks</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="resume.pdf" download class="btn">Resume</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>
-            Experienced Data Engineer with 3.8 years of expertise in delivering impactful data-driven projects and innovative solutions. 
-            Proficient in designing scalable data pipeline architectures and optimizing ETL processes using Python, Spark, PySpark, Databricks, and Azure resources. 
-            Adept at data validation and system automation, with a strong ability to manage diverse forms of data from multiple sources.
-        </p>
+        <div class="about-content">
+            <img src="https://github.com/akramshaik2326.png" alt="Akram Shaik" class="profile-photo">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>
+                    Experienced Data Engineer with 3.8 years of expertise in delivering impactful data-driven projects and innovative solutions. 
+                    Proficient in designing scalable data pipeline architectures and optimizing ETL processes using Python, Spark, PySpark, Databricks, and Azure resources. 
+                    Adept at data validation and system automation, with a strong ability to manage diverse forms of data from multiple sources.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="container">
         <h2>Education</h2>
-        <ul>
-            <li><strong>Master of Science in Computer Science</strong> - Northern Illinois University, USA (Aug 2021 - May 2021)</li>
-            <li><strong>Bachelor of Technology in Computer Science and Engineering</strong> - Jawaharlal Nehru Technology University, India (June 2013 - June 2017)</li>
-        </ul>
+        <div class="education-item">
+            <h3>Master of Science in Computer Science</h3>
+            <p><strong>Northern Illinois University, Dekalb, Illinois USA</strong> | August 2019 - May 2021</p>
+            <p>Specialization: Data Analytics</p>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p><strong>Jawaharlal Nehru Technology University, Hyderabad, Telengana India</strong> | May 2013 - June 2017</p>
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="container">
         <h2>Skills</h2>
-        <ul>
-            <li><strong>Primary Skills:</strong> Python, PySpark, Spark, Hadoop, SQL, T-SQL, C, C++, Java, HTML, CSS</li>
-            <li><strong>Tools & Platforms:</strong> Databricks, Azure Resources (ADF, Blob and Data Lake Storage, Azure DevOps, Azure Repos), Elastic, Git, Hive, GCP, BigQuery, AWS, Snowflake</li>
-            <li><strong>Secondary Skills:</strong> Visual Studio, Visual Studio Code</li>
-            <li><strong>Databases:</strong> SQL Server, PostgreSQL, MySQL, Oracle</li>
-            <li><strong>Certifications:</strong> Azure Data Engineer Associate</li>
-        </ul>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/python.svg" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/microsoftsqlserver.svg" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/apachespark.svg" alt="PySpark">
+                <p>PySpark</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/microsoftazure.svg" alt="Azure">
+                <p>Azure</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/databricks.svg" alt="Databricks">
+                <p>Databricks</p>
+            </div>
+        </div>
     </section>
 
     <!-- Experience Section -->
